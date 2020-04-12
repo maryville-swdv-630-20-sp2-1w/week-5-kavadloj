@@ -64,9 +64,6 @@ class BuildPizza():
     def add_veggies(self, new_veggie):
         self.veggies.append(new_veggie)
         
-    def create_pizza(self):
-        return Pizza(self)
-        
     
 #Facade
 class Checkout():
